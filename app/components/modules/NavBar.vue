@@ -1,6 +1,6 @@
 <template>
   <header>
-    <NuxtLink to="/" class="logo">Leihbar<br />Köln</NuxtLink>
+    <NuxtLink to="/" class="logo">%%LEIHBAR_SITE_NAME%%</NuxtLink>
     <nav>
       <ul v-if="isValid">
         <li v-if="userStore.locations.length > 0">
